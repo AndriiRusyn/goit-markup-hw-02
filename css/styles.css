@@ -1,0 +1,23 @@
+.page-header {
+
+}
+
+.logo:hover {
+  color:#18a0fb;
+}
+
+.site-nav .link {
+ color:#18a0fb;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #000;
+
+}
+
+.contact-info {
+  color: #000;
+
+}
+
