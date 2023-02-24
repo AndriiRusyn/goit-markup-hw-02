@@ -1,23 +1,82 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0,8);
+  --title-text-color: #000000;
+  --accent-color: #18A0FB;
+  --primary-white-color: #ffffff;
+}
+
+
+body {
+background-color: var(--primary-white-color)
+color: var(--primary-text-color);
+
+}
+
+
 .page-header {
 
 }
 
 .logo:hover {
-  color:#18a0fb;
+  color: var(--title-text-color);
 }
 
+/* Navigation plus contact-info */
 .site-nav .link {
- color:#18a0fb;
+ color: var(--accent-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #000;
+  color: var(--title-text-color);
 
 }
 
-.contact-info {
-  color: #000;
+.site-nav .link.current {
+  color: var(--accent-color);
+} 
 
+
+.contact-info a:hover {
+  color: var(--title-text-color);
+
+}
+
+  /* Hero */
+.hero {
+
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Advantages 'work examples') */
+
+.feature-list .work-list-title {
+  color: var(--title-text-color);
+}
+
+/* button */
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-size: 24px;
+  padding: 12px 24px;
+  display: inline-block; 
+  border-color: transparent; 
+}
+
+
+.button.primary {
+ background-color: var(--accent-color);
+ color: var(--primary-white-color);
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color); 
 }
 
