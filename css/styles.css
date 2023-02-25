@@ -1,6 +1,6 @@
 :root {
   --primary-text-color: rgba(0, 0, 0, 0,8);
-  --title-text-color: #000000;
+  --title-text-color: #434455;
   --accent-color: #18A0FB;
   --primary-white-color: #ffffff;
 }
@@ -33,7 +33,7 @@ color: var(--primary-text-color);
 }
 
 .site-nav .link.current {
-  color: var(--accent-color);
+  color: var(--title-text-color)
 } 
 
 
