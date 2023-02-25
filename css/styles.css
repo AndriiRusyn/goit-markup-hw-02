@@ -1,8 +1,9 @@
 :root {
   --primary-text-color: rgba(0, 0, 0, 0,8);
   --title-text-color: #434455;
-  --accent-color: #18A0FB;
+  --accent-color: #4D5AE5;
   --primary-white-color: #ffffff;
+  --primary-heading-text: #2E2F42;
 }
 
 
@@ -13,9 +14,6 @@ color: var(--primary-text-color);
 }
 
 
-.page-header {
-
-}
 
 .logo:hover {
   color: var(--title-text-color);
@@ -23,23 +21,25 @@ color: var(--primary-text-color);
 
 /* Navigation plus contact-info */
 .site-nav .link {
- color: var(--accent-color);
+ color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--title-text-color);
-
+  color: var(--accent-color);
 }
 
 .site-nav .link.current {
-  color: var(--title-text-color)
+  color: var(--accent-color)
 } 
 
 
-.contact-info a:hover {
+.contact-info a {
   color: var(--title-text-color);
+}
 
+.contact-list a:hover {
+  color: var(--accent-color)
 }
 
   /* Hero */
