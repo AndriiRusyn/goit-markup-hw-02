@@ -4,12 +4,15 @@
   --accent-color: #4D5AE5;
   --primary-white-color: #ffffff;
   --primary-heading-text: #2E2F42;
+  --cornflower: #E7E9FC;
+
 }
 
 
 body {
 background-color: var(--primary-white-color)
 color: var(--primary-text-color);
+font-family: Roboto;
 }
 
 
@@ -42,6 +45,15 @@ color: var(--primary-text-color);
 /* Navigation plus contact-info */
 .site-nav .link {
  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  
+  
+}
+.site-nav, .contact-list, .list {
+  list-style: none;
 }
 
 .site-nav .link:hover,
@@ -50,32 +62,63 @@ color: var(--primary-text-color);
 }
 
 .site-nav .link.current {
-  color: var(--accent-color)
+  color: var(--accent-color);
 } 
 
 
 .contact-info a {
   color: var(--title-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    
 }
 
 .contact-list a:hover {
-  color: var(--accent-color)
+  color: var(--accent-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
-  /* Hero */
+  /* Section Hero */
 .hero {
 
 }
 
+.hero-title {
+
+  color: var(--primary-heading-text);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+
+}
+
+
+
+
 /* Section */
 .section-title {
   color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
 }
 
 /* Advantages 'work examples') */
 
-.feature-list .work-list-title {
+.feature-list .list {
   color: var(--title-text-color);
+}
+
+.feature-list .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* button */
@@ -100,4 +143,19 @@ color: var(--primary-text-color);
   color: var(--accent-color);
   background-color: var(--primary-white-color); 
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* portfoliio buttons */
 
