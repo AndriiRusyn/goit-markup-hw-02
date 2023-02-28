@@ -75,7 +75,8 @@ font-family: Roboto;
     
 }
 
-.contact-list a:hover {
+.contact-list a:hover,
+.contact-list a:focus {
   color: var(--accent-color);
     font-weight: 400;
     font-size: 16px;
@@ -141,7 +142,12 @@ font-family: Roboto;
 
 .button.secondary {
   color: var(--accent-color);
-  background-color: var(--primary-white-color); 
+  background-color: var(--cornflower) 
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 .visually-hidden {
