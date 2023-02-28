@@ -20,14 +20,13 @@ font-family: Roboto;
 .logo-link  {
   color: var(--primary-heading-text);
   text-decoration:  none;
-  width: 71px;
+    width: 71px;
     height: 24px;
     text-decoration: none;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
 }
 
 .web-text {
@@ -36,18 +35,17 @@ font-family: Roboto;
     height: 24px;
     text-decoration: none;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
 }
 
-/* Navigation plus contact-info */
+/* Navigation and contact-info */
 .site-nav .link {
  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   text-decoration: none;
   
   
@@ -68,9 +66,8 @@ font-family: Roboto;
 
 .contact-info a {
   color: var(--title-text-color);
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     text-decoration: none;
     
 }
@@ -80,7 +77,7 @@ font-family: Roboto;
   color: var(--accent-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
   /* Section Hero */
@@ -93,7 +90,7 @@ font-family: Roboto;
   color: var(--primary-heading-text);
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
 
 }
@@ -106,20 +103,23 @@ font-family: Roboto;
   color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1;
     text-align: center;
 }
 
-/* Advantages 'work examples') */
 
-.feature-list .list {
-  color: var(--title-text-color);
+/* Advantages 'work examples') */
+ 
+.list {
+  color: var(--primary-heading-text);
+    font-size: 20px;
+    line-height: 1.2;
 }
 
-.feature-list .text {
-    font-weight: 400;
+.text {
+  color: var(--title-text-color);
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 /* button */
@@ -132,17 +132,20 @@ font-family: Roboto;
   display: inline-block; 
   border-color: transparent; 
   text-decoration: none;
+  font-family: inherit;
 }
 
 
 .button.primary {
  background-color: var(--accent-color);
  color: var(--primary-white-color);
+ cursor: pointer;
 }
 
 .button.secondary {
   color: var(--accent-color);
-  background-color: var(--cornflower) 
+  background-color: var(--cornflower);
+  cursor: pointer;
 }
 .button.secondary:hover,
 .button.secondary:focus {
