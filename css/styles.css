@@ -21,7 +21,10 @@
 
 body {
   background: var(--White-background-WHITE);
+  color: var(--Text-SLATE);
   font-family: roboto;
+  font-size: 16px;
+  line-height: 1.5;
 
 }
 
@@ -58,8 +61,8 @@ color: var(--Dark-NAVY-BLUE);
 
 /* font-family: roboto; */
 font-weight: 500;
-font-size: 16px;
-line-height: 1.5
+/* font-size: 16px; */
+/* line-height: 1.5 */
 }
 
 
@@ -80,8 +83,8 @@ line-height: 1.5
   color: var(--Dark-NAVY-BLUE);
 
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5
+    /* font-size: 16px; */
+    /* line-height: 1.5 */
 }
 
 
@@ -117,20 +120,12 @@ line-height: 1.5
 /* section features css */
 
 .feature-title {
-  color: var(--Dark-NAVY-BLUE);
+    color: var(--Dark-NAVY-BLUE);
 
     /* font-family: roboto; */
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-}
-
-.title {
-  color: var(--Text-SLATE);
-
-     /* font-family: roboto; */
-      font-size: 16px;
-      line-height: 1.5;
 }
 
 
@@ -140,8 +135,8 @@ line-height: 1.5
 
     /* font-family: roboto; */
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5
+    /* font-size: 16px; */
+    /* line-height: 1.5 */
 }
 
 .button.primary {
