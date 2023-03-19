@@ -47,6 +47,8 @@ body {
         font-weight: 800;
         Font-size: 18px;
         Line-height: 1.16;
+
+        text-decoration: none;
       
 }
 
@@ -63,6 +65,8 @@ color: var(--Dark-NAVY-BLUE);
 font-weight: 500;
 /* font-size: 16px; */
 /* line-height: 1.5 */
+
+text-decoration: none;
 }
 
 
@@ -85,6 +89,8 @@ font-weight: 500;
     font-weight: 400;
     /* font-size: 16px; */
     /* line-height: 1.5 */
+
+    text-decoration: none;
 }
 
 
@@ -94,12 +100,17 @@ font-weight: 500;
 
 .hero-title {
   
+    color: var(--White-background-WHITE);
     /* font-family: roboto; */
     font-size: 56px;
     line-height: 1.0;
     text-align: center;
 }
 
+
+.hero {
+  background-color: var(--Dark-NAVY-BLUE);
+}
 
 
 /* section */
@@ -127,6 +138,32 @@ font-weight: 500;
     font-weight: 500;
     line-height: 1.2;
 }
+
+
+/* section team  */
+
+
+.team {
+  background-color: var(--Light-CLOUD);
+}
+
+
+
+
+
+/* section footer */
+
+.hero > p {
+  color: var(--White-background-WHITE);
+
+}
+
+.logo-studio {
+  color: var(--Light-CLOUD);
+}
+
+
+
 
 
 .button {
