@@ -21,7 +21,7 @@
 
 body {
   background: var(--White-background-WHITE);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: roboto;
 
 }
 
@@ -38,7 +38,7 @@ body {
 
 
 .logo {
-       color: var(--Dark-NAVY-BLUE);
+        color: var(--Dark-NAVY-BLUE);
 
         font-family: "Raleway", sans-serif;
         font-weight: 800;
@@ -49,9 +49,6 @@ body {
 
 .logo-web {
      color: var(--Primary-Brand-IRIS);
-     
-
-  
 
 }
 
@@ -59,7 +56,7 @@ body {
 .site-nav .link{
 color: var(--Dark-NAVY-BLUE);
 
-
+/* font-family: roboto; */
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5
@@ -94,7 +91,7 @@ line-height: 1.5
 
 .hero-title {
   
-    font-family: Roboto;
+    /* font-family: roboto; */
     font-size: 56px;
     line-height: 1.0;
     text-align: center;
@@ -106,7 +103,7 @@ line-height: 1.5
 
 .section-title {
 
-  font-family: Roboto;
+  /* font-family: roboto; */
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -122,6 +119,7 @@ line-height: 1.5
 .feature-title {
   color: var(--Dark-NAVY-BLUE);
 
+    /* font-family: roboto; */
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -130,7 +128,7 @@ line-height: 1.5
 .title {
   color: var(--Text-SLATE);
 
-     font-family: Roboto;
+     /* font-family: roboto; */
       font-size: 16px;
       line-height: 1.5;
 }
@@ -140,7 +138,7 @@ line-height: 1.5
   color: var(--White-background-WHITE);
   background-color: var(--Primary-Brand-IRIS);
 
-    font-family: roboto;
+    /* font-family: roboto; */
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5
