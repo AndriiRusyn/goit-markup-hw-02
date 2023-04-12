@@ -153,6 +153,10 @@ text-decoration: none;
 
 }
 
+.description-title {
+  letter-spacing: 0.02em;
+}
+
 .feature {
   letter-spacing: 0.02em;
 
@@ -183,6 +187,8 @@ text-decoration: none;
 
 .team-list {
   background-color: var(--White-background-WHITE);
+  letter-spacing: 0.02em;
+
 }
 
 .team-position {
