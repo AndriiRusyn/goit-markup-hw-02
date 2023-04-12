@@ -25,6 +25,7 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  /* line-height: 1.17; */
 
 }
 
@@ -41,19 +42,23 @@ body {
 
 
 .logo {
-        color: var(--Dark-NAVY-BLUE);
+        /* color: var(--Dark-NAVY-BLUE); */
+        color: var(--Primary-Brand-IRIS);
 
         font-family: "Raleway", sans-serif;
         font-weight: 800;
         Font-size: 18px;
-        Line-height: 1.16;
+        /* Line-height: 1.16; */
+        line-height: 1.17;
+        letter-spacing: 0.03em;
 
         text-decoration: none;
+        text-transform: uppercase;
       
 }
 
 .accent {
-     color: var(--Primary-Brand-IRIS);
+     color: var(--Dark-NAVY-BLUE);
 
 }
 
