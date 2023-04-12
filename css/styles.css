@@ -114,9 +114,10 @@ text-decoration: none;
 .hero-title {
   
     color: var(--White-background-WHITE);
-    /* font-family: roboto; */
+    font-family: Roboto, sans-serif;
     font-size: 56px;
-    line-height: 1.0;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -131,11 +132,15 @@ text-decoration: none;
 .section-title {
 
   /* font-family: roboto; */
+  color: var(--Dark-NAVY-BLUE);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
    
+  text-transform: capitalize;
+
 }
 
 
@@ -185,8 +190,9 @@ text-decoration: none;
 
     /* font-family: roboto; */
     font-weight: 500;
-    /* font-size: 16px; */
-    /* line-height: 1.5 */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 
     text-decoration: none;
     cursor: pointer;
