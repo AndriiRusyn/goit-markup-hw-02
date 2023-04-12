@@ -25,6 +25,7 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   /* line-height: 1.17; */
 
 }
@@ -148,6 +149,21 @@ text-decoration: none;
 
 /* section features css */
 
+.advantages {
+
+}
+
+.feature {
+  letter-spacing: 0.02em;
+
+}
+
+.feature-desctiprion {
+  letter-spacing: 0.02em;
+  color: var(--Text-SLATE);
+}
+
+
 .feature-title {
     color: var(--Dark-NAVY-BLUE);
 
@@ -165,8 +181,15 @@ text-decoration: none;
   background-color: var(--Light-CLOUD);
 }
 
+.team-list {
+  background-color: var(--White-background-WHITE);
+}
 
-
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 
 /* section footer */
@@ -175,6 +198,15 @@ text-decoration: none;
   color: var(--White-background-WHITE);
 
 }
+
+.foot-title {
+  background-color: var(--Dark-NAVY-BLUE);
+}
+
+.foot-description {
+  color: var(--Accent-CORNFLOWER);
+}
+
 
 .logo-studio {
   color: var(--Light-CLOUD);
@@ -188,7 +220,7 @@ text-decoration: none;
   color: var(--White-background-WHITE);
   background-color: var(--Primary-Brand-IRIS);
 
-    /* font-family: roboto; */
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
