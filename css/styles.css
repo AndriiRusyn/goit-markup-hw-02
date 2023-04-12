@@ -66,11 +66,12 @@ body {
 .site-nav .link{
 color: var(--Dark-NAVY-BLUE);
 
-/* font-family: roboto; */
+
 font-weight: 500;
 /* font-size: 16px; */
 /* line-height: 1.5 */
 letter-spacing: 0.02em;
+
 
 text-decoration: none;
 }
@@ -93,9 +94,12 @@ text-decoration: none;
   color: var(--Dark-NAVY-BLUE);
 
     font-weight: 400;
-    /* font-size: 16px; */
+    font-size: 16px;
     /* line-height: 1.5 */
+    font-style: normal;
+    letter-spacing: 0.02em;
 
+    font-style: normal;
     text-decoration: none;
 }
 
