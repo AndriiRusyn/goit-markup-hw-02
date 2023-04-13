@@ -72,8 +72,8 @@ color: var(--Dark-NAVY-BLUE);
 
 
 font-weight: 500;
-/* font-size: 16px; */
-/* line-height: 1.5 */
+font-size: 16px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 
 
@@ -187,6 +187,7 @@ text-decoration: none;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 
@@ -230,9 +231,13 @@ text-decoration: none;
   color: var(--Light-CLOUD);
 }
 
+.footer {
+  font-family: "Raleway", sans-serif;
+  
 
+}
 
-
+/* buttons  */
 
 .button {
   color: var(--White-background-WHITE);
