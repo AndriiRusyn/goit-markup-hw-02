@@ -95,12 +95,11 @@ text-decoration: none;
   color: var(--Pressed-State-OCEAN);
 }
 .contact-info .link {
-  color: var(--Dark-NAVY-BLUE);
+  color: var(--Text-SLATE);
 
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    font-style: normal;
     letter-spacing: 0.02em;
 
     font-style: normal;
@@ -108,7 +107,7 @@ text-decoration: none;
 }
 
 .address-info {
-  color: var(--Dark-NAVY-BLUE);
+  color: var(--Text-SLATE);
   
     font-weight: 400;
     font-size: 16px;
@@ -232,10 +231,9 @@ text-decoration: none;
 }
 
 .footer {
-  font-family: "Raleway", sans-serif;
-  
-
+  background-color: var(--Dark-NAVY-BLUE);
 }
+
 
 /* buttons  */
 
