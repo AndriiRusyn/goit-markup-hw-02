@@ -217,12 +217,13 @@ text-decoration: none;
 
 }
 
-.foot-title {
+.footer {
   background-color: var(--Dark-NAVY-BLUE);
 }
 
-.foot-description {
+.footer-description {
   color: var(--Accent-CORNFLOWER);
+
 }
 
 
@@ -230,9 +231,6 @@ text-decoration: none;
   color: var(--Light-CLOUD);
 }
 
-.footer {
-  background-color: var(--Dark-NAVY-BLUE);
-}
 
 
 /* buttons  */
