@@ -261,3 +261,21 @@ text-decoration: none;
   color: var(--White-background-WHITE);
   background-color: var(--Pressed-State-OCEAN);
 }
+
+ /* portfolio section */
+
+ .card-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--Dark-NAVY-BLUE);
+ }
+
+ .card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--Text-SLATE);
+  
+ }
